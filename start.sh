@@ -3,6 +3,6 @@ docker run -d \
         -p 22000:22000 \
         -p 8384:8384 \
         -p 21025:21025 \
-        -v "/opt/minecraft/JointBuildTeam:/root/Sync" \
-        -v "/opt/minecraft/syncthing/config.d:/opt/syncthing/config.d" \
+        -v "./data:/root/Sync" \
+        -v "./config.d:/opt/syncthing/config.d" \
         siomiz/syncthing
