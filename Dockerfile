@@ -1,6 +1,7 @@
 FROM golang:1.4
 
 MAINTAINER Tomohisa Kusano <siomiz@gmail.com>
+MAINTAINER Chamunks <chamunks@gmail.com>
 
 ENV PULSE_VERSION v0.11.24
 
